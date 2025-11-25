@@ -1,0 +1,51 @@
+# === Compilations et exécutables ===
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Fichiers de build
+build/
+debug/
+release/
+
+# Binaire principal généré par le Makefile
+structmaster
+
+# === Dossiers du projet à ignorer ===
+Révision/
+Plan.MD
+
+# Dossier contenant les fichiers de test compilés
+tests/bin/
+
+# Dossier documentation générée automatiquement
+docs/generated/
+
+# Dossier temporaire ou de sauvegarde
+temp/
+backup/
+
+# === Fichiers système ===
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# === Éditeurs ===
+
+# VSCode
+.vscode/
+
+
+# === Logs ===
+*.log
+
+# === Archives ===
+*.zip
+*.rar
+*.tar
+*.gz

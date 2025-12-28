@@ -260,15 +260,15 @@ Mentionner les auteurs pour toute réutilisation publique.
 
 ### Structures :
 
-- [ ] Liste
+- [ ✔️] Liste
 - [ ] Pile
 - [ ] File
 - [ ] Arbre binaire
 
 ### Algorithmes :
 
-- [ ] Tri simple (Bubble, Selection, Insertion)
-- [ ] Tri efficace (Merge, Quick, Heap…)
+- [ ✔️] Tri simple (Bubble, Selection, Insertion)
+- [✔️ ] Tri efficace (Merge, Quick, Heap…)
 - [ ] Tri spécialisés
 - [ ] Recherche tableau 
 - [ ] Recherche arbre

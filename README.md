@@ -243,7 +243,7 @@ int main() {
 
 ## 🧑‍💻 **Auteur**
 
-**Steve SIAKE ,**
+**Steve SIAKE ,....., et **
 Étudiants en Informatique – Université de Dschang
 📚 Passionné par : C, structures de données, génie logiciel, React, design graphique.
 

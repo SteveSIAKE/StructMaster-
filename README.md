@@ -1,8 +1,3 @@
-Voici une version **améliorée et complète** du **README.md**, adaptée à ton objectif d’intégrer un **grand nombre d’algorithmes de tri et de recherche** dans StructMaster.
-Ce README est professionnel, clair, propre, et parfaitement adapté pour un dépôt GitHub ou un rapport de projet.
-
----
-
 # 📘 **StructMaster – Bibliothèque de structures de données, algorithmes de tri et de recherche en C**
 
 ## 🧩 **Description**
@@ -248,7 +243,7 @@ int main() {
 
 ## 🧑‍💻 **Auteur**
 
-**Steve SIAKE ,**
+**Steve SIAKE ,....., et **
 Étudiants en Informatique – Université de Dschang
 📚 Passionné par : C, structures de données, génie logiciel, React, design graphique.
 
@@ -265,15 +260,15 @@ Mentionner les auteurs pour toute réutilisation publique.
 
 ### Structures :
 
-- [ ] Liste
+- [ ✔️] Liste
 - [ ] Pile
 - [ ] File
 - [ ] Arbre binaire
 
 ### Algorithmes :
 
-- [ ] Tri simple (Bubble, Selection, Insertion)
-- [ ] Tri efficace (Merge, Quick, Heap…)
+- [ ✔️] Tri simple (Bubble, Selection, Insertion)
+- [✔️ ] Tri efficace (Merge, Quick, Heap…)
 - [ ] Tri spécialisés
-- [ ] Recherche tableau
+- [ ] Recherche tableau 
 - [ ] Recherche arbre

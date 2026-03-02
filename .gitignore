@@ -15,12 +15,12 @@ release/
 structmaster
 
 # === Dossiers du projet à ignorer ===
-# Révision/
 Plan.MD
 
 # Dossier contenant les fichiers de test compilés
 tests/bin/
-
+# Dossier contenant les fichiers de test de revisions personnelles
+Révision/
 # Dossier documentation générée automatiquement
 docs/generated/
 

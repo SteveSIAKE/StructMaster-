@@ -255,66 +255,20 @@ Projet ouvert pour usage éducatif et académique.
 Mentionner les auteurs pour toute réutilisation publique.
 
 ---
-##⚠️ **La Règle d'Or** (Sacrée et inviolable)
-La branche main est la vitrine de notre projet. 
-Elle doit TOUJOURS compiler, TOUJOURS passer au propre sous Valgrind. 
-PERSONNE n'a le droit de coder directement sur la branche main.
 
----
-## 🛠️ Guide de Collaboration (Workflow Git & GitHub)
+## ✔️ **État d’avancement**
 
-Pour que notre projet reste propre, fonctionnel et que nous puissions travailler à 3 sans écraser le code des autres, nous appliquons un **workflow professionnel strict**.
+### Structures :
 
-🚨 **LA RÈGLE D'OR : La branche `main` est sacrée.** 🚨  
-Elle doit **TOUJOURS** compiler sans erreur et passer les tests mémoire (Valgrind).  
-**Personne ne code, ni ne pousse (push) directement sur `main`.** (La branche est d'ailleurs verrouillée par GitHub).
+- [ ] Liste
+- [ ] Pile
+- [ ] File
+- [ ] Arbre binaire
 
-Voici la boucle de travail en 5 étapes que chaque développeur doit scrupuleusement respecter lorsqu'il s'assigne une **Issue**.
+### Algorithmes :
 
-### 🔄 Les 5 Étapes du Développeur StructMaster
-
-### 1. Se synchroniser avant de commencer
-Toujours récupérer le travail validé par l'équipe avant de commencer à coder.
-```bash
-git checkout main
-git pull origin main
-```
----
-### 2. Créer son espace de travail isolé (La Branche)
-
-Regardez le numéro de votre Issue GitHub (ex: Issue #5). 
-Créez une branche nommée avec le type de tâche et ce numéro.
-```bash
-git checkout -b feat/5-arbre-binaire
-```
- Types courants : feat/ (nouvelle fonctionnalité), fix/ (correction de bug), chore/ (maintenance).
----
-### 3. Coder et Sauvegarder (Faire des Commits)
-
-Écrivez votre code, vérifiez avec le Makefile, et lancez clang-format. Ensuite, sauvegardez votre progression avec un commit respectant notre norme (voir plus bas).
-```bash
-git add src/structures/tree.c include/tree.h
-git commit -m "feat(tree): implémentation de l'insertion dans le BST"
-```
----
-### 4. Envoyer le travail sur GitHub
-Une fois la fonctionnalité terminée, poussez votre branche sur les serveurs de GitHub.
-```bash
-git push origin feat/5-arbre-binaire
-```
----
-### 5. La validation par l'équipe (Pull Request / PR)
-
-Allez sur la page GitHub du projet, un bouton vert "Compare & pull request" est apparu.
-Titre de la PR : Le même que votre commit principal.
-Description : Écrivez Closes #5 (remplacez 5 par votre numéro d'Issue, cela fermera le ticket automatiquement).
-Attendez l'approbation : Vous avez besoin du feu vert d'au moins un coéquipier qui va relire le code (Code Review) avant de cliquer sur Merge pull request.
----
----
-### 📝 Convention des Commits
-Pour garder un historique clair, le message de vos commits doit toujours commencer par l'un de ces préfixes (Conventional Commits) :
-- 🟢 feat: (Nouvelle fonctionnalité) ➔ ex: feat(list): ajout de sm_list_insert_tail
-- 🔴 fix: (Correction d'un bug) ➔ ex: fix(sort): résolution de la fuite mémoire dans quick_sort
-- 📘 docs: (Ajout/Modification de documentation) ➔ ex: docs: mise à jour du readme pour le workflow
-- ⚙️ chore: (Outils, config, Makefile, .clang-format) ➔ ex: chore: ajout du flag -Werror au Makefile
-- 🧪 test: (Ajout d'un fichier de test unitaire) ➔ ex: test(tree): ajout du test pour valider la hauteur de l'arbre
+- [ ] Tri simple (Bubble, Selection, Insertion)
+- [ ] Tri efficace (Merge, Quick, Heap…)
+- [ ] Tri spécialisés
+- [ ] Recherche tableau
+- [ ] Recherche arbre
